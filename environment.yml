@@ -1,0 +1,12 @@
+name: rethinking
+channels:
+  - conda-forge
+dependencies:
+  - python==3.8
+  - black
+  - flake8
+  - ipykernel
+  - arviz
+  - pip
+  - pip:
+    - git+https://github.com/pyro-ppl/numpyro.git
