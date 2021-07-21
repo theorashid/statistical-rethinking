@@ -6,7 +6,5 @@ dependencies:
   - black
   - flake8
   - ipykernel
+  - numpyro
   - arviz
-  - pip
-  - pip:
-    - git+https://github.com/pyro-ppl/numpyro.git
