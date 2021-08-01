@@ -1,6 +1,5 @@
 # %%
 import pandas as pd
-import arviz as az
 import jax.numpy as jnp
 from jax import random
 from jax.scipy.special import expit
@@ -10,7 +9,6 @@ from numpyro.diagnostics import print_summary
 from numpyro.distributions.transforms import OrderedTransform
 from numpyro.infer import MCMC, NUTS, Predictive
 
-az.style.use("arviz-darkgrid")
 numpyro.set_platform("cpu")
 numpyro.set_host_device_count(2)
 
